@@ -1,0 +1,47 @@
+:root {
+  --color-bg: #1e1e2e;
+  --color-surface: #313244;
+  --color-overlay: #6c7086;
+  --color-text: #cdd6f4;
+  --color-subtext: #a6adc8;
+  --color-green: #a6e3a1;
+  --color-purple: #cba6f7;
+  --color-pink: #f5c2e7;
+  --color-blue: #89b4fa;
+  --color-yellow: #f9e2af;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 2rem 0;
+  background-color: var(--color-bg);
+}
+
+.app-container {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.app-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.app-main {
+  margin-bottom: 4rem;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid var(--color-surface);
+  color: var(--color-overlay);
+}
+
+.app-footer p {
+  margin: 0;
+}
